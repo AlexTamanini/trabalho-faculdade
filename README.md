@@ -1,5 +1,108 @@
-# trabalho-faculdade
-trabalho a3 faculdade
+PÁGINA INICIAL
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde e bem estar funcionário</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #005cb8, #001f4d);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background: rgba(0, 27, 77, 0.5);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 800px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.2em;
+            color: white;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 30px 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        a {
+            color: white;
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 1.3em;
+            text-align: center;
+            text-decoration: none;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px 30px;
+            border-radius: 25px;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            display: block;
+            margin: 40px auto;
+            max-width: 600px;
+            width: 90%;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.02);
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.5), transparent);
+            margin: 30px auto;
+            width: 80%;
+        }
+
+        p {
+            text-align: center;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sáude e Bem-estar - nome da empresa</h1>
+
+    <hr>
+
+    <h2>Programa de saúde e bem-estar mental</h2>
+
+<p><a href ="formulário.html" target="_self">Clique aqui para preencher o formulário</a></p>
+
+<img src="imagens/pexels-thecoachspace-2977547.jpg"width="600" alt="foto tema">
+
+</body>
+</html>
+
+
+
+FORMULÁRIO DE INSCRIÇÃO
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -132,3 +235,9 @@ trabalho a3 faculdade
     <p style="text-align: center;"><a href="index.html" target="_self">Retornar para tela inicial</a></p>
 </body>
 </html>
+
+
+
+
+
+
